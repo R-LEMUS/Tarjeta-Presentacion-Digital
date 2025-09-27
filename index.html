@@ -5,69 +5,69 @@
   <title>Tarjeta Presentacion</title>
   <style>
     body {
-      background: #0d1117;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      display: flex;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
+        background: #0d1117;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
     .card-container {
-      width: 360px;
-      height: 450px;
-      perspective: 1000px;
+        width: 360px;
+        height: 450px;
+        perspective: 1000px;
     }
     .card {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.8s ease;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.8s ease;
     }
     .card-container:hover .card {
-      transform: rotateY(180deg);
+        transform: rotateY(180deg);
     }
     .card-side {
-      position: absolute;
-      width: 100%;
-      height: 111%;
-      border-radius: 12px;
-      background: #161b22;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-      color: #c9d1d9;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      backface-visibility: hidden;
-      padding: 1.5rem;
-      box-sizing: border-box;
-      text-align: center;
+        position: absolute;
+        width: 100%;
+        height: 111%;
+        border-radius: 12px;
+        background: #161b22;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        color: #c9d1d9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        backface-visibility: hidden;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        text-align: center;
     }
     .card-side img {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      border: 3px solid #c9d1d9;
-      margin-bottom: 1rem;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 3px solid #c9d1d9;
+        margin-bottom: 1rem;
     }
     .card-side h1 {
-      margin: 0.5rem 0;
-      color: #f0f6fc;
+        margin: 0.5rem 0;
+        color: #f0f6fc;
     }
     .interests, .dislikes {
-      list-style: none;
-      padding: 0;
-      margin: 1rem 0;
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
     }
     .interests li {
-      background: #21262d;
-      margin: 0.4rem 0;
-      padding: 0.4rem 1rem;
-      border-radius: 8px;
-      display: inline-block;
-      font-size: 0.9rem;
+        background: #21262d;
+        margin: 0.4rem 0;
+        padding: 0.4rem 1rem;
+        border-radius: 8px;
+        display: inline-block;
+        font-size: 0.9rem;
     }
 
     .dislikes li {
@@ -82,18 +82,18 @@
       transform: rotateY(180deg);
     }
     .card a {
-      text-decoration: none;
-      color: #fff;
-      background: #238636;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      margin-top: 1rem;
-      display: inline-block;
-      font-weight: bold;
-      transition: background 0.2s;
+        text-decoration: none;
+        color: #fff;
+        background: #238636;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+        display: inline-block;
+        font-weight: bold;
+        transition: background 0.2s;
     }
     .card a:hover {
-      background: #2ea043;
+         background: #2ea043;
     }
   </style>
 </head>
